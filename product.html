@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="admin">
+        <div class="sideBar">
+            <a href="index.html"><p>Dashboard</p></a>
+            <a href="mainProduct.html"><p>Product</p></a>
+            <a href="mainUser.html"><p>Users</p></a>
+            <a href="product.html"><p>Create Product</p></a>
+            <a href="user.html"><p>Create User</p></a>
+        </div>
+        <div class="mainPage">
+            <h1>Create Product</h1>
+            <form action="">
+                <div>
+                    <input type="text" id="name" placeholder="Product Name" class="input">
+                    <span id="productName" class="message"></span>
+                </div>
+               <div>
+                <input type="number" id="price" placeholder="Price" class="input">
+                <span id="priceTag" class="message"></span>
+               </div>
+                <div>
+                    <input type="text" id="notes" placeholder="Description" class="input">
+                    <span id="description" class="message"></span>
+                </div>
+                <div>
+                <input type="number" id="number" placeholder="Quantity" class="input">
+                <span id="quantity" class="message"></span>
+                </div>
+                <div>
+                    <input type="file" id="image">
+            
+                </div>
+                <div>
+                    <input type="text" placeholder="category" id="category" class="input">
+                </div>
+
+                <input type="submit"  id="account">
+
+            </form>
+           
+        </div>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar{
+    background-color: #087e74;
+    width: 20%;
+    height: 739px;
+}
+a{
+    text-decoration: none;
+}
+.sideBar p{
+    padding-top: 50px;
+    color: #fff;
+    padding-left: 50px;
+}
+.admin{
+    display: flex;
+    
+}
+.add{
+    display: flex;
+}
+.add img{
+    width: 50px;
+    height: 50px;
+}
+.add p{
+    margin-top: 15px;
+}
+.mainPage{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.input{
+    padding: 20px 200px 20px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#account{
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.message{
+    color: red;
+}
+.img{
+    padding: 20px 10px 20px 10px;
+}

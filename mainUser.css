@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar{
+    background-color: #087e74;
+    width: 20%;
+    height: 739px;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+}
+.sideBar p{
+    padding-top: 50px;
+    color: #fff;
+    padding-left: 50px;
+}
+.admin{
+    display: flex;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
